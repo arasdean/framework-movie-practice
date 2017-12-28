@@ -1,0 +1,38 @@
+
+div #MovieList {
+  padding-top: 40px;
+  width: 300px;
+  border: 1px solid green;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+div #tabs {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+div#filmTitle {
+  border: 1px solid black;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+button#Watch {
+  margin-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+button#Watched{
+  background-color: green;
+  color: white;
+  margin-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
