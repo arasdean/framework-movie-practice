@@ -1,5 +1,5 @@
 
-div #MovieList {
+div #mList {
   padding-top: 40px;
   width: 300px;
   border: 1px solid green;
@@ -8,7 +8,7 @@ div #MovieList {
   margin-top: 20px;
 }
 
-div #tabs {
+div#tabs {
 margin-top: 20px;
 margin-bottom: 20px;
 }
@@ -23,6 +23,11 @@ div#filmTitle {
   padding-right: 30px;
 }
 
+div#buttonsDiv{
+  padding-top: 40px;
+  width: 300px;
+  margin-top: 20px;
+}
 button#Watch {
   margin-left: 50px;
   padding-top: 5px;

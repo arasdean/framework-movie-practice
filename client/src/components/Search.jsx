@@ -1,18 +1,22 @@
 import React from 'react';
 
-export default class Search extends React.Component {
-  constructor(props) {
-    super(props)
 
+
+export default class Search extends React.Component {
+  constructor(props){
+    super(props)
   }
-  render() {
-    return (
-      <div>
-        <form onSubmit= {this.props.submit} >
-          <input type='textarea' onChange= {this.props.change} ></input>
-          <button type='submit'> Search </button>
+
+  render(){
+    return(
+      <div id='search'>
+
+        <form>
+          <input type="textarea" />
+          <button type='submit'> Search </button> 
         </form>
 
-      </div>)
+      </div>
+    )
   }
 }

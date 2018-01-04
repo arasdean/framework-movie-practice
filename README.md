@@ -34,13 +34,13 @@ var movies = [
 ## Level 2 - Express Server
 - [ * ] Move the hardcoded data from index.jsx to your Express Server js file
 - [ * ] In your Express Server code a GET route called /movies which will be used to get the hardcoded list of movies
-- [ ] Modify your index.jsx to call this /movies GET route to do an initial load of your data //component will mount
-- [ ] In your Express Server code a POST route called /movie. This route will allow the user to create a new movie
-- [ ] Modify your index.jsx use the /movie POST route
+- [ * ] Modify your index.jsx to call this /movies GET route to do an initial load of your data
+- [ * ] In your Express Server code a POST route called /movie. This route will allow the user to create a new movie
+- [ * ] Modify your index.jsx use the /movie POST route
 
-
+;;
 ## Level 3 - API
-- [ ] Go to https://www.themoviedb.org/documentation/api to learn more about the API you will be using. Sign-up for a new API Key. If you do not receive one within 15 minutes ask a proctor for assistance.
+- [ * ] Go to https://www.themoviedb.org/documentation/api to learn more about the API you will be using. Sign-up for a new API Key. If you do not receive one within 15 minutes ask a proctor for assistance.
 - [ ] Write code in movieAPI.js necessary to call the API (you may use the 'now_playing' endpoint) and retrieve movie results
 - [ ] Create a new Express GET route called /load in which you make a call to the API. Put the retrieved data into the hardcoded movies array in Express index.js
 - [ ] Modify your index.jsx file accordingly to handle the loaded API data. You should not longer have dummy data anywhere.
